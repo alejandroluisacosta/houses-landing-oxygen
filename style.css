@@ -8,6 +8,7 @@ body {
   position: relative;
   width: 87.8%;
   height: 92%;
+  font-family: Lato;
 }
 
 .top-container {
@@ -102,16 +103,21 @@ body {
   margin: 0.5em 0 0;
 }
 .bottom-container__information__item {
+  display: flex;
+  justify-content: space-between;
   font-size: 16px;
   background-color: #F4F4F4;
   border-radius: 24px;
-  padding: 1.5em 1.75em 1.5em 1.5em;
+  padding: 1em 1.75em 1em 1.5em;
 }
-.bottom-container__information__item__title {
+.bottom-container__information__item__text-container {
+  width: 60%;
+}
+.bottom-container__information__item__text-container__title {
   font-size: 24px;
   margin: 0;
 }
-.bottom-container__information__item__description {
+.bottom-container__information__item__text-container__description {
   margin: 0.5em 0 0;
 }
 .bottom-container__image-container {
