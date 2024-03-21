@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   position: relative;
@@ -39,6 +43,7 @@ body {
 .bottom-container {
   width: 100%;
   display: grid;
+  align-items: stretch;
   font-size: 20px;
   margin-top: 10.15em;
   grid-template-columns: repeat(2, 1fr);
@@ -46,8 +51,8 @@ body {
 }
 .bottom-container__get-started {
   width: 83.4%;
+  justify-self: center;
   margin-top: 10.4%;
-  margin-left: 8.94%;
   font-size: 20px;
   margin-bottom: 5.5em;
 }
@@ -69,11 +74,11 @@ body {
 }
 .bottom-container__information {
   width: 80.7%;
+  justify-self: center;
   grid-row-start: 2;
   grid-column-start: 1;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  margin-left: 8.89%;
 }
 .bottom-container__information__flex {
   display: flex;
@@ -114,8 +119,9 @@ body {
 .bottom-container__information__item__text-container__description {
   margin: 0.5em 0 0;
 }
-.bottom-container__image-container {
+.bottom-container__image {
   width: 100%;
+  align-self: center;
   grid-row-start: 1;
   grid-column-start: 2;
   grid-row: span 2;
