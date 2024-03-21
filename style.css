@@ -1,21 +1,14 @@
-html {
-  width: 1640px;
-  height: 2488px;
-}
-
 body {
-  width: 1640px;
-  height: 2488px;
   margin: 0;
   position: relative;
-  width: 87.8%;
-  height: 92%;
   font-family: Lato;
 }
 
 .top-container {
   width: 100%;
   background-image: url("./resources/background-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   font-size: 20px;
   padding: 12.1em 0 18.2em;
 }
@@ -36,8 +29,7 @@ body {
   margin: 1.33em 0;
 }
 .top-container__main__button {
-  width: 32.8%;
-  padding: 1em;
+  padding: 1em 2em;
   border-radius: 40px;
   color: white;
   background-color: #06040A;
